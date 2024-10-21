@@ -42,7 +42,7 @@ Pada tugas ini, pengguna akan memasukkan beberapa bilangan sampai pengguna memas
 ### Flowchart
 Flowchartnya adalah sebagai berikut:
 
-![Flowchart 2](image/flowchart_tugas2.png)
+![Flowchart 2](image/flowchart2.png)
 
 ### Kode Program
 Kode program dapat dilihat di file [`Kode 2`](bilanganN.py).
