@@ -1,7 +1,7 @@
 # Praktikum
 
 - Nama : Roufan Awaluna Romadhon
-- NIM : 31210423
+- NIM : 312410423
 - Kelas : TI.24.A.3
 
 Repository ini berisi dua tugas yang dikerjakan dalam Tugas pertemuan 5. Berikut tugasnya:
