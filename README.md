@@ -1,12 +1,12 @@
 # Praktikum
 
-Nama : Roufan Awaluna Romadhon
-NIM : 31210423
-Kelas : TI.24.A.3
+- Nama : Roufan Awaluna Romadhon
+- NIM : 31210423
+- Kelas : TI.24.A.3
 
 Repository ini berisi dua tugas yang dikerjakan dalam Tugas pertemuan 5. Berikut tugasnya:
-1. Tiga bilangan yang diinputkan pengguna.
-2. Beberapa bilangan yang diinputkan pengguna sampai pengguna memasukkan angka `0`.
+1. Menentukan bilangan terbesar dari 3 buah bilangan yang diinputkan.
+2. Menentukan bilangan terbesar dari N bilangan yang diinputkan, untuk menentukan jumlah N, berikan masukan angka 0.
 
 ---
 
