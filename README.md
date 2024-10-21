@@ -21,11 +21,29 @@ Flowchartnya adalah sebagai berikut:
 ![Flowchart 1](image/flowchart1.png)
 
 ### Kode Program
-Kode program dapat dilihat di file [`Kode 1`](bilanganterbesar.py).
+Kode program dapat dilihat dibawah ini atau buka file ini [`bilanganterbesar.py`](bilanganterbesar.py).
+```python
+# Inisialisasi dan membaca input dari pengguna
+bil1 = int(input("Masukkan bilangan pertama: "))
+bil2 = int(input("Masukkan bilangan kedua: "))
+bil3 = int(input("Masukkan bilangan ketiga: "))
+
+# Perbandingan untuk menentukan bilangan terbesar
+if bil1 > bil2 and bil1 > bil3:
+    print("Bilangan terbesar adalah bilangan pertama:", bil1)
+elif bil2 > bil3 and bil2 > bil1:
+    print("Bilangan terbesar adalah bilangan kedua:", bil2)
+else:
+    print("Bilangan terbesar adalah bilangan ketiga:", bil3)
+```
 
 ### Penjelasan Program
-- Program meminta pengguna untuk memasukkan tiga bilangan.
-- Program kemudian membandingkan ketiga bilangan tersebut dan mencetak bilangan terbesar.
+- Program akan meminta input tiga bilangan dari pengguna.
+- Setelah ketiga bilangan dimasukkan, program membandingkan bilangan-bilangan tersebut.
+- Jika bilangan pertama lebih besar dari bilangan kedua dan ketiga, maka bilangan pertama adalah yang terbesar.
+- Jika bilangan kedua lebih besar dari yang lainnya, maka bilangan kedua adalah yang terbesar.
+- Jika tidak, bilangan ketiga adalah yang terbesar.
+- Hasil bilangan terbesar akan dicetak.
 
 ### Screenshot Hasil Eksekusi
 Berikut adalah hasil eksekusi programnya:
@@ -45,7 +63,26 @@ Flowchartnya adalah sebagai berikut:
 ![Flowchart 2](image/flowchart2.png)
 
 ### Kode Program
-Kode program dapat dilihat di file [`Kode 2`](bilanganN.py).
+Kode program dapat dilihat dibawah ini atau buka file ini [`bilanganN.py`](bilanganN.py).
+```python
+# Inisialisasi max dengan nilai sangat kecil
+max_value = float('-inf')
+
+while True:
+    # Input bilangan dari pengguna
+    N = int(input("Masukkan bilangan (ketik 0 untuk selesai): "))
+    
+    # Jika bilangan adalah 0, keluar dari loop
+    if N == 0:
+        break
+    
+    # Jika bilangan lebih besar dari max_value, perbarui max_value
+    if N > max_value:
+        max_value = N
+
+# Cetak bilangan terbesar yang ditemukan
+print("Bilangan terbesar adalah:", max_value)
+```
 
 ### Penjelasan Program
 - Program diinisialisasi dengan nilai `max_value` yang diset ke `-∞` (negatif tak hingga).
